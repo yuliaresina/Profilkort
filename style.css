@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background: rgb(212, 212, 212);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+article.card {
+    width: 280px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: center;
+
+    color: rgba(59, 28, 28, 0.4);
+}
+
+.card img.profile {
+    width: 8rem;
+    border-radius: 999rem;
+    
+        
+
+}
+
+.card h1 {
+    font-size: 1.3rem;
+    color: rgba(0,0,0,.8);
+    margin: 3rem 0 .5rem 0;
+}
+
+.card p {
+    margin: 1px;
+    padding: 0;
+}
+
+.card a {
+    
+    width: calc(100% - 3rem);
+    padding: 1rem;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgb(238, 238, 238);
+    text-align: center;
+    border-radius: 999rem;
+    font-size: 1rem;
+}
